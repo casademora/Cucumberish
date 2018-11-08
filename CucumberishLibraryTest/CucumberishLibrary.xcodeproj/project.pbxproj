@@ -125,106 +125,173 @@
 		C57B79E91E15922A001B758D /* expected_json_output.json in Resources */ = {isa = PBXBuildFile; fileRef = C57B79E51E15922A001B758D /* expected_json_output.json */; };
 		C57B79EA1E15922A001B758D /* Features in Resources */ = {isa = PBXBuildFile; fileRef = C57B79E61E15922A001B758D /* Features */; };
 		C5E80F761E16BA290042D98D /* CCIFeaturesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F0A1E16BA280042D98D /* CCIFeaturesManager.m */; };
-		C5E80F771E16BA290042D98D /* CCIFeaturesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F0A1E16BA280042D98D /* CCIFeaturesManager.m */; };
 		C5E80F781E16BA290042D98D /* CCIStepsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F0C1E16BA280042D98D /* CCIStepsManager.m */; };
-		C5E80F791E16BA290042D98D /* CCIStepsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F0C1E16BA280042D98D /* CCIStepsManager.m */; };
 		C5E80F7A1E16BA290042D98D /* CCIArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F0F1E16BA280042D98D /* CCIArgument.m */; };
-		C5E80F7B1E16BA290042D98D /* CCIArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F0F1E16BA280042D98D /* CCIArgument.m */; };
 		C5E80F7C1E16BA290042D98D /* CCIAroundHock.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F111E16BA280042D98D /* CCIAroundHock.m */; };
-		C5E80F7D1E16BA290042D98D /* CCIAroundHock.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F111E16BA280042D98D /* CCIAroundHock.m */; };
 		C5E80F7E1E16BA290042D98D /* CCIBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F131E16BA280042D98D /* CCIBackground.m */; };
-		C5E80F7F1E16BA290042D98D /* CCIBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F131E16BA280042D98D /* CCIBackground.m */; };
 		C5E80F801E16BA290042D98D /* CCIExample.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F151E16BA280042D98D /* CCIExample.m */; };
-		C5E80F811E16BA290042D98D /* CCIExample.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F151E16BA280042D98D /* CCIExample.m */; };
 		C5E80F821E16BA290042D98D /* CCIFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F171E16BA280042D98D /* CCIFeature.m */; };
-		C5E80F831E16BA290042D98D /* CCIFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F171E16BA280042D98D /* CCIFeature.m */; };
 		C5E80F841E16BA290042D98D /* CCIHock.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F191E16BA280042D98D /* CCIHock.m */; };
-		C5E80F851E16BA290042D98D /* CCIHock.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F191E16BA280042D98D /* CCIHock.m */; };
 		C5E80F861E16BA290042D98D /* CCIJSONDumper.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F1B1E16BA280042D98D /* CCIJSONDumper.m */; };
-		C5E80F871E16BA290042D98D /* CCIJSONDumper.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F1B1E16BA280042D98D /* CCIJSONDumper.m */; };
 		C5E80F881E16BA290042D98D /* CCILocation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F1D1E16BA280042D98D /* CCILocation.m */; };
-		C5E80F891E16BA290042D98D /* CCILocation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F1D1E16BA280042D98D /* CCILocation.m */; };
 		C5E80F8A1E16BA290042D98D /* CCIScenarioDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F1F1E16BA280042D98D /* CCIScenarioDefinition.m */; };
-		C5E80F8B1E16BA290042D98D /* CCIScenarioDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F1F1E16BA280042D98D /* CCIScenarioDefinition.m */; };
 		C5E80F8C1E16BA290042D98D /* CCIStep.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F211E16BA280042D98D /* CCIStep.m */; };
-		C5E80F8D1E16BA290042D98D /* CCIStep.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F211E16BA280042D98D /* CCIStep.m */; };
 		C5E80F8E1E16BA290042D98D /* CCIStepDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F231E16BA280042D98D /* CCIStepDefinition.m */; };
-		C5E80F8F1E16BA290042D98D /* CCIStepDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F231E16BA280042D98D /* CCIStepDefinition.m */; };
 		C5E80F901E16BA290042D98D /* Cucumberish.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F251E16BA280042D98D /* Cucumberish.m */; };
-		C5E80F911E16BA290042D98D /* Cucumberish.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F251E16BA280042D98D /* Cucumberish.m */; };
 		C5E80F921E16BA290042D98D /* GHAstBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F291E16BA280042D98D /* GHAstBuilder.m */; };
-		C5E80F931E16BA290042D98D /* GHAstBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F291E16BA280042D98D /* GHAstBuilder.m */; };
 		C5E80F941E16BA290042D98D /* GHAstNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F2B1E16BA280042D98D /* GHAstNode.m */; };
-		C5E80F951E16BA290042D98D /* GHAstNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F2B1E16BA280042D98D /* GHAstNode.m */; };
 		C5E80F961E16BA290042D98D /* GHBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F2D1E16BA280042D98D /* GHBackground.m */; };
-		C5E80F971E16BA290042D98D /* GHBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F2D1E16BA280042D98D /* GHBackground.m */; };
 		C5E80F981E16BA290042D98D /* GHComment.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F2F1E16BA280042D98D /* GHComment.m */; };
-		C5E80F991E16BA290042D98D /* GHComment.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F2F1E16BA280042D98D /* GHComment.m */; };
 		C5E80F9A1E16BA290042D98D /* GHDataTable.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F311E16BA280042D98D /* GHDataTable.m */; };
-		C5E80F9B1E16BA290042D98D /* GHDataTable.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F311E16BA280042D98D /* GHDataTable.m */; };
 		C5E80F9C1E16BA290042D98D /* GHDocString.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F331E16BA280042D98D /* GHDocString.m */; };
-		C5E80F9D1E16BA290042D98D /* GHDocString.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F331E16BA280042D98D /* GHDocString.m */; };
 		C5E80F9E1E16BA290042D98D /* gherkin-languages.json in Resources */ = {isa = PBXBuildFile; fileRef = C5E80F341E16BA280042D98D /* gherkin-languages.json */; };
 		C5E80F9F1E16BA290042D98D /* gherkin-languages.json in Resources */ = {isa = PBXBuildFile; fileRef = C5E80F341E16BA280042D98D /* gherkin-languages.json */; };
 		C5E80FA01E16BA290042D98D /* GHExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F361E16BA280042D98D /* GHExamples.m */; };
-		C5E80FA11E16BA290042D98D /* GHExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F361E16BA280042D98D /* GHExamples.m */; };
 		C5E80FA21E16BA290042D98D /* GHFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F381E16BA280042D98D /* GHFeature.m */; };
-		C5E80FA31E16BA290042D98D /* GHFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F381E16BA280042D98D /* GHFeature.m */; };
 		C5E80FA41E16BA290042D98D /* GHGherkinDialect.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F3A1E16BA280042D98D /* GHGherkinDialect.m */; };
-		C5E80FA51E16BA290042D98D /* GHGherkinDialect.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F3A1E16BA280042D98D /* GHGherkinDialect.m */; };
 		C5E80FA61E16BA290042D98D /* GHGherkinDialectProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F3C1E16BA280042D98D /* GHGherkinDialectProvider.m */; };
-		C5E80FA71E16BA290042D98D /* GHGherkinDialectProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F3C1E16BA280042D98D /* GHGherkinDialectProvider.m */; };
 		C5E80FA81E16BA290042D98D /* GHGherkinLanguageConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F3F1E16BA280042D98D /* GHGherkinLanguageConstants.m */; };
-		C5E80FA91E16BA290042D98D /* GHGherkinLanguageConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F3F1E16BA280042D98D /* GHGherkinLanguageConstants.m */; };
 		C5E80FAA1E16BA290042D98D /* GHGherkinLanguageSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F411E16BA280042D98D /* GHGherkinLanguageSetting.m */; };
-		C5E80FAB1E16BA290042D98D /* GHGherkinLanguageSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F411E16BA280042D98D /* GHGherkinLanguageSetting.m */; };
 		C5E80FAC1E16BA290042D98D /* GHGherkinLine.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F431E16BA280042D98D /* GHGherkinLine.m */; };
-		C5E80FAD1E16BA290042D98D /* GHGherkinLine.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F431E16BA280042D98D /* GHGherkinLine.m */; };
 		C5E80FAE1E16BA290042D98D /* GHGherkinLineSpan.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F461E16BA280042D98D /* GHGherkinLineSpan.m */; };
-		C5E80FAF1E16BA290042D98D /* GHGherkinLineSpan.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F461E16BA280042D98D /* GHGherkinLineSpan.m */; };
 		C5E80FB01E16BA290042D98D /* GHLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F4D1E16BA280042D98D /* GHLocation.m */; };
-		C5E80FB11E16BA290042D98D /* GHLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F4D1E16BA280042D98D /* GHLocation.m */; };
 		C5E80FB21E16BA290042D98D /* GHNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F4F1E16BA280042D98D /* GHNode.m */; };
-		C5E80FB31E16BA290042D98D /* GHNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F4F1E16BA280042D98D /* GHNode.m */; };
 		C5E80FB41E16BA290042D98D /* GHParser+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F511E16BA280042D98D /* GHParser+Extensions.m */; };
-		C5E80FB51E16BA290042D98D /* GHParser+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F511E16BA280042D98D /* GHParser+Extensions.m */; };
 		C5E80FB61E16BA290042D98D /* GHParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F531E16BA280042D98D /* GHParser.m */; };
-		C5E80FB71E16BA290042D98D /* GHParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F531E16BA280042D98D /* GHParser.m */; };
 		C5E80FB81E16BA290042D98D /* GHParserException.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F551E16BA280042D98D /* GHParserException.m */; };
-		C5E80FB91E16BA290042D98D /* GHParserException.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F551E16BA280042D98D /* GHParserException.m */; };
 		C5E80FBA1E16BA290042D98D /* GHScenario.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F571E16BA280042D98D /* GHScenario.m */; };
-		C5E80FBB1E16BA290042D98D /* GHScenario.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F571E16BA280042D98D /* GHScenario.m */; };
 		C5E80FBC1E16BA290042D98D /* GHScenarioDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F591E16BA290042D98D /* GHScenarioDefinition.m */; };
-		C5E80FBD1E16BA290042D98D /* GHScenarioDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F591E16BA290042D98D /* GHScenarioDefinition.m */; };
 		C5E80FBE1E16BA290042D98D /* GHScenarioOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F5C1E16BA290042D98D /* GHScenarioOutline.m */; };
-		C5E80FBF1E16BA290042D98D /* GHScenarioOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F5C1E16BA290042D98D /* GHScenarioOutline.m */; };
 		C5E80FC01E16BA290042D98D /* GHStep.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F5E1E16BA290042D98D /* GHStep.m */; };
-		C5E80FC11E16BA290042D98D /* GHStep.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F5E1E16BA290042D98D /* GHStep.m */; };
 		C5E80FC21E16BA290042D98D /* GHStepArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F601E16BA290042D98D /* GHStepArgument.m */; };
-		C5E80FC31E16BA290042D98D /* GHStepArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F601E16BA290042D98D /* GHStepArgument.m */; };
 		C5E80FC41E16BA290042D98D /* GHTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F621E16BA290042D98D /* GHTableCell.m */; };
-		C5E80FC51E16BA290042D98D /* GHTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F621E16BA290042D98D /* GHTableCell.m */; };
 		C5E80FC61E16BA290042D98D /* GHTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F641E16BA290042D98D /* GHTableRow.m */; };
-		C5E80FC71E16BA290042D98D /* GHTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F641E16BA290042D98D /* GHTableRow.m */; };
 		C5E80FC81E16BA290042D98D /* GHTag.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F661E16BA290042D98D /* GHTag.m */; };
-		C5E80FC91E16BA290042D98D /* GHTag.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F661E16BA290042D98D /* GHTag.m */; };
 		C5E80FCA1E16BA290042D98D /* GHToken.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F681E16BA290042D98D /* GHToken.m */; };
-		C5E80FCB1E16BA290042D98D /* GHToken.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F681E16BA290042D98D /* GHToken.m */; };
 		C5E80FCC1E16BA290042D98D /* GHTokenMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F6A1E16BA290042D98D /* GHTokenMatcher.m */; };
-		C5E80FCD1E16BA290042D98D /* GHTokenMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F6A1E16BA290042D98D /* GHTokenMatcher.m */; };
 		C5E80FCE1E16BA290042D98D /* GHTokenScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F6C1E16BA290042D98D /* GHTokenScanner.m */; };
-		C5E80FCF1E16BA290042D98D /* GHTokenScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F6C1E16BA290042D98D /* GHTokenScanner.m */; };
 		C5E80FD01E16BA290042D98D /* NSString+Trim.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F6E1E16BA290042D98D /* NSString+Trim.m */; };
-		C5E80FD11E16BA290042D98D /* NSString+Trim.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F6E1E16BA290042D98D /* NSString+Trim.m */; };
 		C5E80FD21E16BA290042D98D /* NSArray+Hashes.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F711E16BA290042D98D /* NSArray+Hashes.m */; };
-		C5E80FD31E16BA290042D98D /* NSArray+Hashes.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F711E16BA290042D98D /* NSArray+Hashes.m */; };
 		C5E80FD41E16BA290042D98D /* NSObject+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F731E16BA290042D98D /* NSObject+Dictionary.m */; };
-		C5E80FD51E16BA290042D98D /* NSObject+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F731E16BA290042D98D /* NSObject+Dictionary.m */; };
 		C5E80FD61E16BA290042D98D /* NSString+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F751E16BA290042D98D /* NSString+Formatter.m */; };
-		C5E80FD71E16BA290042D98D /* NSString+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F751E16BA290042D98D /* NSString+Formatter.m */; };
+		C7234E2D2146CB0F009BE083 /* Cucumberish_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7234E242146CB0E009BE083 /* Cucumberish_Mac.framework */; };
+		C7234E342146CB0F009BE083 /* Cucumberish_Mac.h in Headers */ = {isa = PBXBuildFile; fileRef = C7234E262146CB0E009BE083 /* Cucumberish_Mac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7234E3B2146CB2F009BE083 /* NSArray+Hashes.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F701E16BA290042D98D /* NSArray+Hashes.h */; };
+		C7234E3C2146CB2F009BE083 /* NSArray+Hashes.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F711E16BA290042D98D /* NSArray+Hashes.m */; };
+		C7234E3D2146CB2F009BE083 /* NSObject+Dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F721E16BA290042D98D /* NSObject+Dictionary.h */; };
+		C7234E3E2146CB2F009BE083 /* NSObject+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F731E16BA290042D98D /* NSObject+Dictionary.m */; };
+		C7234E3F2146CB2F009BE083 /* NSString+Formatter.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F741E16BA290042D98D /* NSString+Formatter.h */; };
+		C7234E402146CB2F009BE083 /* NSString+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F751E16BA290042D98D /* NSString+Formatter.m */; };
+		C7234E412146CB3D009BE083 /* GHAstBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F281E16BA280042D98D /* GHAstBuilder.h */; };
+		C7234E422146CB3D009BE083 /* GHAstBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F291E16BA280042D98D /* GHAstBuilder.m */; };
+		C7234E432146CB3D009BE083 /* GHAstNode.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F2A1E16BA280042D98D /* GHAstNode.h */; };
+		C7234E442146CB3D009BE083 /* GHAstNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F2B1E16BA280042D98D /* GHAstNode.m */; };
+		C7234E452146CB3D009BE083 /* GHBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F2C1E16BA280042D98D /* GHBackground.h */; };
+		C7234E462146CB3D009BE083 /* GHBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F2D1E16BA280042D98D /* GHBackground.m */; };
+		C7234E472146CB3D009BE083 /* GHComment.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F2E1E16BA280042D98D /* GHComment.h */; };
+		C7234E482146CB3D009BE083 /* GHComment.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F2F1E16BA280042D98D /* GHComment.m */; };
+		C7234E492146CB3D009BE083 /* GHDataTable.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F301E16BA280042D98D /* GHDataTable.h */; };
+		C7234E4A2146CB3D009BE083 /* GHDataTable.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F311E16BA280042D98D /* GHDataTable.m */; };
+		C7234E4B2146CB3D009BE083 /* GHDocString.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F321E16BA280042D98D /* GHDocString.h */; };
+		C7234E4C2146CB3D009BE083 /* GHDocString.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F331E16BA280042D98D /* GHDocString.m */; };
+		C7234E4D2146CB3D009BE083 /* gherkin-languages.json in Resources */ = {isa = PBXBuildFile; fileRef = C5E80F341E16BA280042D98D /* gherkin-languages.json */; };
+		C7234E4E2146CB3D009BE083 /* GHExamples.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F351E16BA280042D98D /* GHExamples.h */; };
+		C7234E4F2146CB3D009BE083 /* GHExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F361E16BA280042D98D /* GHExamples.m */; };
+		C7234E502146CB3D009BE083 /* GHFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F371E16BA280042D98D /* GHFeature.h */; };
+		C7234E512146CB3D009BE083 /* GHFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F381E16BA280042D98D /* GHFeature.m */; };
+		C7234E522146CB3D009BE083 /* GHGherkinDialect.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F391E16BA280042D98D /* GHGherkinDialect.h */; };
+		C7234E532146CB3D009BE083 /* GHGherkinDialect.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F3A1E16BA280042D98D /* GHGherkinDialect.m */; };
+		C7234E542146CB3D009BE083 /* GHGherkinDialectProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F3B1E16BA280042D98D /* GHGherkinDialectProvider.h */; };
+		C7234E552146CB3D009BE083 /* GHGherkinDialectProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F3C1E16BA280042D98D /* GHGherkinDialectProvider.m */; };
+		C7234E562146CB3D009BE083 /* GHGherkinDialectProviderProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F3D1E16BA280042D98D /* GHGherkinDialectProviderProtocol.h */; };
+		C7234E572146CB3D009BE083 /* GHGherkinLanguageConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F3E1E16BA280042D98D /* GHGherkinLanguageConstants.h */; };
+		C7234E582146CB3D009BE083 /* GHGherkinLanguageConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F3F1E16BA280042D98D /* GHGherkinLanguageConstants.m */; };
+		C7234E592146CB3D009BE083 /* GHGherkinLanguageSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F401E16BA280042D98D /* GHGherkinLanguageSetting.h */; };
+		C7234E5A2146CB3D009BE083 /* GHGherkinLanguageSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F411E16BA280042D98D /* GHGherkinLanguageSetting.m */; };
+		C7234E5B2146CB3D009BE083 /* GHGherkinLine.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F421E16BA280042D98D /* GHGherkinLine.h */; };
+		C7234E5C2146CB3D009BE083 /* GHGherkinLine.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F431E16BA280042D98D /* GHGherkinLine.m */; };
+		C7234E5D2146CB3D009BE083 /* GHGherkinLineProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F441E16BA280042D98D /* GHGherkinLineProtocol.h */; };
+		C7234E5E2146CB3D009BE083 /* GHGherkinLineSpan.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F451E16BA280042D98D /* GHGherkinLineSpan.h */; };
+		C7234E5F2146CB3D009BE083 /* GHGherkinLineSpan.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F461E16BA280042D98D /* GHGherkinLineSpan.m */; };
+		C7234E602146CB3D009BE083 /* GHHasDescriptionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F471E16BA280042D98D /* GHHasDescriptionProtocol.h */; };
+		C7234E612146CB3D009BE083 /* GHHasLocationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F481E16BA280042D98D /* GHHasLocationProtocol.h */; };
+		C7234E622146CB3D009BE083 /* GHHasRowsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F491E16BA280042D98D /* GHHasRowsProtocol.h */; };
+		C7234E632146CB3D009BE083 /* GHHasStepsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F4A1E16BA280042D98D /* GHHasStepsProtocol.h */; };
+		C7234E642146CB3D009BE083 /* GHHasTagsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F4B1E16BA280042D98D /* GHHasTagsProtocol.h */; };
+		C7234E652146CB3D009BE083 /* GHLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F4C1E16BA280042D98D /* GHLocation.h */; };
+		C7234E662146CB3D009BE083 /* GHLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F4D1E16BA280042D98D /* GHLocation.m */; };
+		C7234E672146CB3D009BE083 /* GHNode.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F4E1E16BA280042D98D /* GHNode.h */; };
+		C7234E682146CB3D009BE083 /* GHNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F4F1E16BA280042D98D /* GHNode.m */; };
+		C7234E692146CB3D009BE083 /* GHParser+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F501E16BA280042D98D /* GHParser+Extensions.h */; };
+		C7234E6A2146CB3D009BE083 /* GHParser+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F511E16BA280042D98D /* GHParser+Extensions.m */; };
+		C7234E6B2146CB3D009BE083 /* GHParser.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F521E16BA280042D98D /* GHParser.h */; };
+		C7234E6C2146CB3D009BE083 /* GHParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F531E16BA280042D98D /* GHParser.m */; };
+		C7234E6D2146CB3D009BE083 /* GHParserException.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F541E16BA280042D98D /* GHParserException.h */; };
+		C7234E6E2146CB3D009BE083 /* GHParserException.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F551E16BA280042D98D /* GHParserException.m */; };
+		C7234E6F2146CB3D009BE083 /* GHScenario.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F561E16BA280042D98D /* GHScenario.h */; };
+		C7234E702146CB3D009BE083 /* GHScenario.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F571E16BA280042D98D /* GHScenario.m */; };
+		C7234E712146CB3D009BE083 /* GHScenarioDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F581E16BA290042D98D /* GHScenarioDefinition.h */; };
+		C7234E722146CB3D009BE083 /* GHScenarioDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F591E16BA290042D98D /* GHScenarioDefinition.m */; };
+		C7234E732146CB3D009BE083 /* GHScenarioDefinition_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F5A1E16BA290042D98D /* GHScenarioDefinition_Private.h */; };
+		C7234E742146CB3D009BE083 /* GHScenarioOutline.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F5B1E16BA290042D98D /* GHScenarioOutline.h */; };
+		C7234E752146CB3D009BE083 /* GHScenarioOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F5C1E16BA290042D98D /* GHScenarioOutline.m */; };
+		C7234E762146CB3D009BE083 /* GHStep.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F5D1E16BA290042D98D /* GHStep.h */; };
+		C7234E772146CB3D009BE083 /* GHStep.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F5E1E16BA290042D98D /* GHStep.m */; };
+		C7234E782146CB3D009BE083 /* GHStepArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F5F1E16BA290042D98D /* GHStepArgument.h */; };
+		C7234E792146CB3D009BE083 /* GHStepArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F601E16BA290042D98D /* GHStepArgument.m */; };
+		C7234E7A2146CB3D009BE083 /* GHTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F611E16BA290042D98D /* GHTableCell.h */; };
+		C7234E7B2146CB3D009BE083 /* GHTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F621E16BA290042D98D /* GHTableCell.m */; };
+		C7234E7C2146CB3D009BE083 /* GHTableRow.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F631E16BA290042D98D /* GHTableRow.h */; };
+		C7234E7D2146CB3D009BE083 /* GHTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F641E16BA290042D98D /* GHTableRow.m */; };
+		C7234E7E2146CB3D009BE083 /* GHTag.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F651E16BA290042D98D /* GHTag.h */; };
+		C7234E7F2146CB3D009BE083 /* GHTag.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F661E16BA290042D98D /* GHTag.m */; };
+		C7234E802146CB3D009BE083 /* GHToken.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F671E16BA290042D98D /* GHToken.h */; };
+		C7234E812146CB3D009BE083 /* GHToken.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F681E16BA290042D98D /* GHToken.m */; };
+		C7234E822146CB3D009BE083 /* GHTokenMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F691E16BA290042D98D /* GHTokenMatcher.h */; };
+		C7234E832146CB3D009BE083 /* GHTokenMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F6A1E16BA290042D98D /* GHTokenMatcher.m */; };
+		C7234E842146CB3D009BE083 /* GHTokenScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F6B1E16BA290042D98D /* GHTokenScanner.h */; };
+		C7234E852146CB3D009BE083 /* GHTokenScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F6C1E16BA290042D98D /* GHTokenScanner.m */; };
+		C7234E862146CB3D009BE083 /* NSString+Trim.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F6D1E16BA290042D98D /* NSString+Trim.h */; };
+		C7234E872146CB3D009BE083 /* NSString+Trim.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F6E1E16BA290042D98D /* NSString+Trim.m */; };
+		C7234E882146CB45009BE083 /* Cucumberish.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F241E16BA280042D98D /* Cucumberish.h */; };
+		C7234E892146CB45009BE083 /* Cucumberish.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F251E16BA280042D98D /* Cucumberish.m */; };
+		C7234E8A2146CB4F009BE083 /* CCIBlockDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F071E16BA280042D98D /* CCIBlockDefinitions.h */; };
+		C7234E8B2146CB4F009BE083 /* CCIFeaturesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F091E16BA280042D98D /* CCIFeaturesManager.h */; };
+		C7234E8C2146CB4F009BE083 /* CCIFeaturesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F0A1E16BA280042D98D /* CCIFeaturesManager.m */; };
+		C7234E8D2146CB4F009BE083 /* CCIStepsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F0B1E16BA280042D98D /* CCIStepsManager.h */; };
+		C7234E8E2146CB4F009BE083 /* CCIStepsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F0C1E16BA280042D98D /* CCIStepsManager.m */; };
+		C7234E8F2146CB4F009BE083 /* CCILoggingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F3CBE1A91F19C59700D34E16 /* CCILoggingManager.h */; };
+		C7234E902146CB4F009BE083 /* CCILoggingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CBE1AA1F19C59700D34E16 /* CCILoggingManager.m */; };
+		C7234E912146CD28009BE083 /* CCIArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F0E1E16BA280042D98D /* CCIArgument.h */; };
+		C7234E922146CD28009BE083 /* CCIArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F0F1E16BA280042D98D /* CCIArgument.m */; };
+		C7234E932146CD28009BE083 /* CCIAroundHock.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F101E16BA280042D98D /* CCIAroundHock.h */; };
+		C7234E942146CD28009BE083 /* CCIAroundHock.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F111E16BA280042D98D /* CCIAroundHock.m */; };
+		C7234E952146CD28009BE083 /* CCIBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F121E16BA280042D98D /* CCIBackground.h */; };
+		C7234E962146CD28009BE083 /* CCIBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F131E16BA280042D98D /* CCIBackground.m */; };
+		C7234E972146CD28009BE083 /* CCIExample.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F141E16BA280042D98D /* CCIExample.h */; };
+		C7234E982146CD28009BE083 /* CCIExample.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F151E16BA280042D98D /* CCIExample.m */; };
+		C7234E992146CD28009BE083 /* CCIFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F161E16BA280042D98D /* CCIFeature.h */; };
+		C7234E9A2146CD28009BE083 /* CCIFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F171E16BA280042D98D /* CCIFeature.m */; };
+		C7234E9B2146CD28009BE083 /* CCIHock.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F181E16BA280042D98D /* CCIHock.h */; };
+		C7234E9C2146CD28009BE083 /* CCIHock.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F191E16BA280042D98D /* CCIHock.m */; };
+		C7234E9D2146CD28009BE083 /* CCIJSONDumper.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F1A1E16BA280042D98D /* CCIJSONDumper.h */; };
+		C7234E9E2146CD28009BE083 /* CCIJSONDumper.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F1B1E16BA280042D98D /* CCIJSONDumper.m */; };
+		C7234E9F2146CD28009BE083 /* CCILocation.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F1C1E16BA280042D98D /* CCILocation.h */; };
+		C7234EA02146CD28009BE083 /* CCILocation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F1D1E16BA280042D98D /* CCILocation.m */; };
+		C7234EA12146CD28009BE083 /* CCIScenarioDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F1E1E16BA280042D98D /* CCIScenarioDefinition.h */; };
+		C7234EA22146CD28009BE083 /* CCIScenarioDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F1F1E16BA280042D98D /* CCIScenarioDefinition.m */; };
+		C7234EA32146CD28009BE083 /* CCIStep.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F201E16BA280042D98D /* CCIStep.h */; };
+		C7234EA42146CD28009BE083 /* CCIStep.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F211E16BA280042D98D /* CCIStep.m */; };
+		C7234EA52146CD28009BE083 /* CCIStepDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F221E16BA280042D98D /* CCIStepDefinition.h */; };
+		C7234EA62146CD28009BE083 /* CCIStepDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F231E16BA280042D98D /* CCIStepDefinition.m */; };
+		C7234EA72146CD4E009BE083 /* expected_classes_and_methods.json in Resources */ = {isa = PBXBuildFile; fileRef = C57B79E31E15922A001B758D /* expected_classes_and_methods.json */; };
+		C7234EA82146CD4E009BE083 /* expected_hooks.output in Resources */ = {isa = PBXBuildFile; fileRef = F3AE1BF31F2DC4AC0044D544 /* expected_hooks.output */; };
+		C7234EA92146CD4E009BE083 /* expected_execution.output in Resources */ = {isa = PBXBuildFile; fileRef = C57B79E41E15922A001B758D /* expected_execution.output */; };
+		C7234EAA2146CD4E009BE083 /* expected_json_output.json in Resources */ = {isa = PBXBuildFile; fileRef = C57B79E51E15922A001B758D /* expected_json_output.json */; };
+		C7234EAB2146CD53009BE083 /* Features in Resources */ = {isa = PBXBuildFile; fileRef = C57B79E61E15922A001B758D /* Features */; };
+		C7234EAC2146CD56009BE083 /* CucumberishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C57B79DA1E15847C001B758D /* CucumberishTests.m */; };
 		F307B4721F19F90500800005 /* CCILoggingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F3CBE1A91F19C59700D34E16 /* CCILoggingManager.h */; };
 		F307B4731F19F90C00800005 /* CCILoggingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CBE1AA1F19C59700D34E16 /* CCILoggingManager.m */; };
-		F307B4741F19F90C00800005 /* CCILoggingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CBE1AA1F19C59700D34E16 /* CCILoggingManager.m */; };
 		F307B4751F19F90D00800005 /* CCILoggingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CBE1AA1F19C59700D34E16 /* CCILoggingManager.m */; };
 		F3AE1BF41F2DC4B40044D544 /* expected_hooks.output in Resources */ = {isa = PBXBuildFile; fileRef = F3AE1BF31F2DC4AC0044D544 /* expected_hooks.output */; };
 		F3CBE1AE1F19C9E700D34E16 /* CCIDryRunLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CBE1AD1F19C9E700D34E16 /* CCIDryRunLogger.m */; };
@@ -245,6 +312,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 3E0B341C1DDB9C0F00E1A338;
 			remoteInfo = CucumberishLibrary;
+		};
+		C7234E2E2146CB0F009BE083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E0B34151DDB9C0F00E1A338 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7234E232146CB0E009BE083;
+			remoteInfo = "Cucumberish-Mac";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -385,6 +459,12 @@
 		C5E80F731E16BA290042D98D /* NSObject+Dictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Dictionary.m"; sourceTree = "<group>"; };
 		C5E80F741E16BA290042D98D /* NSString+Formatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Formatter.h"; sourceTree = "<group>"; };
 		C5E80F751E16BA290042D98D /* NSString+Formatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Formatter.m"; sourceTree = "<group>"; };
+		C7234E242146CB0E009BE083 /* Cucumberish_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cucumberish_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7234E262146CB0E009BE083 /* Cucumberish_Mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cucumberish_Mac.h; sourceTree = "<group>"; };
+		C7234E272146CB0E009BE083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7234E2C2146CB0F009BE083 /* Cucumberish-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cucumberish-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7234E312146CB0F009BE083 /* Cucumberish_MacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cucumberish_MacTests.swift; sourceTree = "<group>"; };
+		C7234E332146CB0F009BE083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3AE1BF31F2DC4AC0044D544 /* expected_hooks.output */ = {isa = PBXFileReference; lastKnownFileType = text; path = expected_hooks.output; sourceTree = "<group>"; };
 		F3CBE1A91F19C59700D34E16 /* CCILoggingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCILoggingManager.h; sourceTree = "<group>"; };
 		F3CBE1AA1F19C59700D34E16 /* CCILoggingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCILoggingManager.m; sourceTree = "<group>"; };
@@ -424,6 +504,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C7234E212146CB0E009BE083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7234E292146CB0F009BE083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7234E2D2146CB0F009BE083 /* Cucumberish_Mac.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -435,6 +530,8 @@
 				3E38B0EB1DDDE0A400C1CF5A /* CucumberishFeatureDefinition */,
 				C57B79D91E15847C001B758D /* CucumberishTests */,
 				607EE9EB1E50ED5800F2E8B6 /* CucumberishCarthage */,
+				C7234E252146CB0E009BE083 /* Cucumberish-Mac */,
+				C7234E302146CB0F009BE083 /* Cucumberish-MacTests */,
 				3E0B341E1DDB9C0F00E1A338 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -447,6 +544,8 @@
 				3E38B0EA1DDDE0A400C1CF5A /* CucumberishFeatureDefinition.xctest */,
 				C57B79D81E15847C001B758D /* CucumberishTests.xctest */,
 				607EE9EA1E50ED5800F2E8B6 /* Cucumberish.framework */,
+				C7234E242146CB0E009BE083 /* Cucumberish_Mac.framework */,
+				C7234E2C2146CB0F009BE083 /* Cucumberish-MacTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -662,6 +761,24 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		C7234E252146CB0E009BE083 /* Cucumberish-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				C7234E262146CB0E009BE083 /* Cucumberish_Mac.h */,
+				C7234E272146CB0E009BE083 /* Info.plist */,
+			);
+			path = "Cucumberish-Mac";
+			sourceTree = "<group>";
+		};
+		C7234E302146CB0F009BE083 /* Cucumberish-MacTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7234E312146CB0F009BE083 /* Cucumberish_MacTests.swift */,
+				C7234E332146CB0F009BE083 /* Info.plist */,
+			);
+			path = "Cucumberish-MacTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -727,6 +844,72 @@
 				607EEA581E50EE1000F2E8B6 /* NSArray+Hashes.h in Headers */,
 				607EEA591E50EE1000F2E8B6 /* NSObject+Dictionary.h in Headers */,
 				607EEA5A1E50EE1000F2E8B6 /* NSString+Formatter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7234E1F2146CB0E009BE083 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7234E672146CB3D009BE083 /* GHNode.h in Headers */,
+				C7234E7C2146CB3D009BE083 /* GHTableRow.h in Headers */,
+				C7234E5B2146CB3D009BE083 /* GHGherkinLine.h in Headers */,
+				C7234E502146CB3D009BE083 /* GHFeature.h in Headers */,
+				C7234E932146CD28009BE083 /* CCIAroundHock.h in Headers */,
+				C7234E762146CB3D009BE083 /* GHStep.h in Headers */,
+				C7234E8B2146CB4F009BE083 /* CCIFeaturesManager.h in Headers */,
+				C7234E782146CB3D009BE083 /* GHStepArgument.h in Headers */,
+				C7234E412146CB3D009BE083 /* GHAstBuilder.h in Headers */,
+				C7234E972146CD28009BE083 /* CCIExample.h in Headers */,
+				C7234EA32146CD28009BE083 /* CCIStep.h in Headers */,
+				C7234E802146CB3D009BE083 /* GHToken.h in Headers */,
+				C7234E742146CB3D009BE083 /* GHScenarioOutline.h in Headers */,
+				C7234E6D2146CB3D009BE083 /* GHParserException.h in Headers */,
+				C7234E842146CB3D009BE083 /* GHTokenScanner.h in Headers */,
+				C7234E4E2146CB3D009BE083 /* GHExamples.h in Headers */,
+				C7234E522146CB3D009BE083 /* GHGherkinDialect.h in Headers */,
+				C7234E692146CB3D009BE083 /* GHParser+Extensions.h in Headers */,
+				C7234E3D2146CB2F009BE083 /* NSObject+Dictionary.h in Headers */,
+				C7234E642146CB3D009BE083 /* GHHasTagsProtocol.h in Headers */,
+				C7234E632146CB3D009BE083 /* GHHasStepsProtocol.h in Headers */,
+				C7234E432146CB3D009BE083 /* GHAstNode.h in Headers */,
+				C7234E472146CB3D009BE083 /* GHComment.h in Headers */,
+				C7234E652146CB3D009BE083 /* GHLocation.h in Headers */,
+				C7234E952146CD28009BE083 /* CCIBackground.h in Headers */,
+				C7234E602146CB3D009BE083 /* GHHasDescriptionProtocol.h in Headers */,
+				C7234EA52146CD28009BE083 /* CCIStepDefinition.h in Headers */,
+				C7234E612146CB3D009BE083 /* GHHasLocationProtocol.h in Headers */,
+				C7234E3F2146CB2F009BE083 /* NSString+Formatter.h in Headers */,
+				C7234E622146CB3D009BE083 /* GHHasRowsProtocol.h in Headers */,
+				C7234E492146CB3D009BE083 /* GHDataTable.h in Headers */,
+				C7234E8F2146CB4F009BE083 /* CCILoggingManager.h in Headers */,
+				C7234E882146CB45009BE083 /* Cucumberish.h in Headers */,
+				C7234E342146CB0F009BE083 /* Cucumberish_Mac.h in Headers */,
+				C7234E822146CB3D009BE083 /* GHTokenMatcher.h in Headers */,
+				C7234E992146CD28009BE083 /* CCIFeature.h in Headers */,
+				C7234E572146CB3D009BE083 /* GHGherkinLanguageConstants.h in Headers */,
+				C7234E542146CB3D009BE083 /* GHGherkinDialectProvider.h in Headers */,
+				C7234E7A2146CB3D009BE083 /* GHTableCell.h in Headers */,
+				C7234E4B2146CB3D009BE083 /* GHDocString.h in Headers */,
+				C7234E3B2146CB2F009BE083 /* NSArray+Hashes.h in Headers */,
+				C7234E9B2146CD28009BE083 /* CCIHock.h in Headers */,
+				C7234E8A2146CB4F009BE083 /* CCIBlockDefinitions.h in Headers */,
+				C7234E8D2146CB4F009BE083 /* CCIStepsManager.h in Headers */,
+				C7234E712146CB3D009BE083 /* GHScenarioDefinition.h in Headers */,
+				C7234E9F2146CD28009BE083 /* CCILocation.h in Headers */,
+				C7234E562146CB3D009BE083 /* GHGherkinDialectProviderProtocol.h in Headers */,
+				C7234E5D2146CB3D009BE083 /* GHGherkinLineProtocol.h in Headers */,
+				C7234E6F2146CB3D009BE083 /* GHScenario.h in Headers */,
+				C7234E912146CD28009BE083 /* CCIArgument.h in Headers */,
+				C7234E7E2146CB3D009BE083 /* GHTag.h in Headers */,
+				C7234E452146CB3D009BE083 /* GHBackground.h in Headers */,
+				C7234EA12146CD28009BE083 /* CCIScenarioDefinition.h in Headers */,
+				C7234E5E2146CB3D009BE083 /* GHGherkinLineSpan.h in Headers */,
+				C7234E9D2146CD28009BE083 /* CCIJSONDumper.h in Headers */,
+				C7234E732146CB3D009BE083 /* GHScenarioDefinition_Private.h in Headers */,
+				C7234E6B2146CB3D009BE083 /* GHParser.h in Headers */,
+				C7234E862146CB3D009BE083 /* NSString+Trim.h in Headers */,
+				C7234E592146CB3D009BE083 /* GHGherkinLanguageSetting.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -804,12 +987,49 @@
 			productReference = C57B79D81E15847C001B758D /* CucumberishTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		C7234E232146CB0E009BE083 /* Cucumberish-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7234E392146CB0F009BE083 /* Build configuration list for PBXNativeTarget "Cucumberish-Mac" */;
+			buildPhases = (
+				C7234E1F2146CB0E009BE083 /* Headers */,
+				C7234E202146CB0E009BE083 /* Sources */,
+				C7234E212146CB0E009BE083 /* Frameworks */,
+				C7234E222146CB0E009BE083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cucumberish-Mac";
+			productName = "Cucumberish-Mac";
+			productReference = C7234E242146CB0E009BE083 /* Cucumberish_Mac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7234E2B2146CB0F009BE083 /* Cucumberish-MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7234E3A2146CB0F009BE083 /* Build configuration list for PBXNativeTarget "Cucumberish-MacTests" */;
+			buildPhases = (
+				C7234E282146CB0F009BE083 /* Sources */,
+				C7234E292146CB0F009BE083 /* Frameworks */,
+				C7234E2A2146CB0F009BE083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7234E2F2146CB0F009BE083 /* PBXTargetDependency */,
+			);
+			name = "Cucumberish-MacTests";
+			productName = "Cucumberish-MacTests";
+			productReference = C7234E2C2146CB0F009BE083 /* Cucumberish-MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		3E0B34151DDB9C0F00E1A338 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Ahmed Ali";
 				TargetAttributes = {
@@ -827,6 +1047,16 @@
 					};
 					C57B79D71E15847C001B758D = {
 						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					C7234E232146CB0E009BE083 = {
+						CreatedOnToolsVersion = 10.0;
+						DevelopmentTeam = 6B83H6W97V;
+						ProvisioningStyle = Automatic;
+					};
+					C7234E2B2146CB0F009BE083 = {
+						CreatedOnToolsVersion = 10.0;
+						DevelopmentTeam = 6B83H6W97V;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -847,6 +1077,8 @@
 				3E38B0E91DDDE0A400C1CF5A /* CucumberishFeatureDefinition */,
 				C57B79D71E15847C001B758D /* CucumberishTests */,
 				607EE9E91E50ED5800F2E8B6 /* Cucumberish */,
+				C7234E232146CB0E009BE083 /* Cucumberish-Mac */,
+				C7234E2B2146CB0F009BE083 /* Cucumberish-MacTests */,
 			);
 		};
 /* End PBXProject section */
@@ -880,6 +1112,26 @@
 				C57B79E81E15922A001B758D /* expected_execution.output in Resources */,
 				C57B79EA1E15922A001B758D /* Features in Resources */,
 				C5E80F9F1E16BA290042D98D /* gherkin-languages.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7234E222146CB0E009BE083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7234E4D2146CB3D009BE083 /* gherkin-languages.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7234E2A2146CB0F009BE083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7234EAA2146CD4E009BE083 /* expected_json_output.json in Resources */,
+				C7234EA92146CD4E009BE083 /* expected_execution.output in Resources */,
+				C7234EAB2146CD53009BE083 /* Features in Resources */,
+				C7234EA72146CD4E009BE083 /* expected_classes_and_methods.json in Resources */,
+				C7234EA82146CD4E009BE083 /* expected_hooks.output in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1013,56 +1265,71 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5E80F991E16BA290042D98D /* GHComment.m in Sources */,
-				C5E80F871E16BA290042D98D /* CCIJSONDumper.m in Sources */,
-				C5E80FB71E16BA290042D98D /* GHParser.m in Sources */,
-				C5E80F791E16BA290042D98D /* CCIStepsManager.m in Sources */,
-				C5E80FC11E16BA290042D98D /* GHStep.m in Sources */,
-				C5E80F971E16BA290042D98D /* GHBackground.m in Sources */,
-				C5E80FB91E16BA290042D98D /* GHParserException.m in Sources */,
-				C5E80FC51E16BA290042D98D /* GHTableCell.m in Sources */,
-				C5E80F8B1E16BA290042D98D /* CCIScenarioDefinition.m in Sources */,
-				C5E80FD51E16BA290042D98D /* NSObject+Dictionary.m in Sources */,
-				C5E80FC91E16BA290042D98D /* GHTag.m in Sources */,
-				C5E80FCB1E16BA290042D98D /* GHToken.m in Sources */,
-				C5E80FCD1E16BA290042D98D /* GHTokenMatcher.m in Sources */,
-				C5E80FA71E16BA290042D98D /* GHGherkinDialectProvider.m in Sources */,
-				C5E80FA31E16BA290042D98D /* GHFeature.m in Sources */,
-				C5E80FB51E16BA290042D98D /* GHParser+Extensions.m in Sources */,
-				C5E80FBB1E16BA290042D98D /* GHScenario.m in Sources */,
-				C5E80FB11E16BA290042D98D /* GHLocation.m in Sources */,
-				C5E80FCF1E16BA290042D98D /* GHTokenScanner.m in Sources */,
-				C5E80FA91E16BA290042D98D /* GHGherkinLanguageConstants.m in Sources */,
-				C5E80F9B1E16BA290042D98D /* GHDataTable.m in Sources */,
-				C5E80F7F1E16BA290042D98D /* CCIBackground.m in Sources */,
-				C5E80F8F1E16BA290042D98D /* CCIStepDefinition.m in Sources */,
-				C5E80F831E16BA290042D98D /* CCIFeature.m in Sources */,
-				C5E80FBD1E16BA290042D98D /* GHScenarioDefinition.m in Sources */,
-				C5E80FBF1E16BA290042D98D /* GHScenarioOutline.m in Sources */,
-				C5E80FA51E16BA290042D98D /* GHGherkinDialect.m in Sources */,
-				C5E80F9D1E16BA290042D98D /* GHDocString.m in Sources */,
-				C5E80F851E16BA290042D98D /* CCIHock.m in Sources */,
-				C5E80F931E16BA290042D98D /* GHAstBuilder.m in Sources */,
-				C5E80FB31E16BA290042D98D /* GHNode.m in Sources */,
-				C5E80F771E16BA290042D98D /* CCIFeaturesManager.m in Sources */,
-				C5E80F951E16BA290042D98D /* GHAstNode.m in Sources */,
-				C5E80FD71E16BA290042D98D /* NSString+Formatter.m in Sources */,
-				C5E80FD31E16BA290042D98D /* NSArray+Hashes.m in Sources */,
-				F307B4741F19F90C00800005 /* CCILoggingManager.m in Sources */,
-				C5E80F811E16BA290042D98D /* CCIExample.m in Sources */,
-				C5E80FA11E16BA290042D98D /* GHExamples.m in Sources */,
-				C5E80FC71E16BA290042D98D /* GHTableRow.m in Sources */,
-				C5E80F7B1E16BA290042D98D /* CCIArgument.m in Sources */,
-				C5E80FAB1E16BA290042D98D /* GHGherkinLanguageSetting.m in Sources */,
 				C57B79DB1E15847C001B758D /* CucumberishTests.m in Sources */,
-				C5E80FAF1E16BA290042D98D /* GHGherkinLineSpan.m in Sources */,
-				C5E80F8D1E16BA290042D98D /* CCIStep.m in Sources */,
-				C5E80F7D1E16BA290042D98D /* CCIAroundHock.m in Sources */,
-				C5E80FAD1E16BA290042D98D /* GHGherkinLine.m in Sources */,
-				C5E80F891E16BA290042D98D /* CCILocation.m in Sources */,
-				C5E80FD11E16BA290042D98D /* NSString+Trim.m in Sources */,
-				C5E80F911E16BA290042D98D /* Cucumberish.m in Sources */,
-				C5E80FC31E16BA290042D98D /* GHStepArgument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7234E202146CB0E009BE083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7234E9A2146CD28009BE083 /* CCIFeature.m in Sources */,
+				C7234E4C2146CB3D009BE083 /* GHDocString.m in Sources */,
+				C7234E3C2146CB2F009BE083 /* NSArray+Hashes.m in Sources */,
+				C7234E5F2146CB3D009BE083 /* GHGherkinLineSpan.m in Sources */,
+				C7234E9C2146CD28009BE083 /* CCIHock.m in Sources */,
+				C7234E9E2146CD28009BE083 /* CCIJSONDumper.m in Sources */,
+				C7234E512146CB3D009BE083 /* GHFeature.m in Sources */,
+				C7234E8C2146CB4F009BE083 /* CCIFeaturesManager.m in Sources */,
+				C7234E7D2146CB3D009BE083 /* GHTableRow.m in Sources */,
+				C7234EA22146CD28009BE083 /* CCIScenarioDefinition.m in Sources */,
+				C7234E812146CB3D009BE083 /* GHToken.m in Sources */,
+				C7234E4A2146CB3D009BE083 /* GHDataTable.m in Sources */,
+				C7234E722146CB3D009BE083 /* GHScenarioDefinition.m in Sources */,
+				C7234E772146CB3D009BE083 /* GHStep.m in Sources */,
+				C7234E702146CB3D009BE083 /* GHScenario.m in Sources */,
+				C7234EA42146CD28009BE083 /* CCIStep.m in Sources */,
+				C7234EA02146CD28009BE083 /* CCILocation.m in Sources */,
+				C7234E7F2146CB3D009BE083 /* GHTag.m in Sources */,
+				C7234E792146CB3D009BE083 /* GHStepArgument.m in Sources */,
+				C7234E6E2146CB3D009BE083 /* GHParserException.m in Sources */,
+				C7234E402146CB2F009BE083 /* NSString+Formatter.m in Sources */,
+				C7234E8E2146CB4F009BE083 /* CCIStepsManager.m in Sources */,
+				C7234E852146CB3D009BE083 /* GHTokenScanner.m in Sources */,
+				C7234E462146CB3D009BE083 /* GHBackground.m in Sources */,
+				C7234E662146CB3D009BE083 /* GHLocation.m in Sources */,
+				C7234EA62146CD28009BE083 /* CCIStepDefinition.m in Sources */,
+				C7234E482146CB3D009BE083 /* GHComment.m in Sources */,
+				C7234E552146CB3D009BE083 /* GHGherkinDialectProvider.m in Sources */,
+				C7234E7B2146CB3D009BE083 /* GHTableCell.m in Sources */,
+				C7234E752146CB3D009BE083 /* GHScenarioOutline.m in Sources */,
+				C7234E962146CD28009BE083 /* CCIBackground.m in Sources */,
+				C7234E3E2146CB2F009BE083 /* NSObject+Dictionary.m in Sources */,
+				C7234E5C2146CB3D009BE083 /* GHGherkinLine.m in Sources */,
+				C7234E422146CB3D009BE083 /* GHAstBuilder.m in Sources */,
+				C7234E892146CB45009BE083 /* Cucumberish.m in Sources */,
+				C7234E442146CB3D009BE083 /* GHAstNode.m in Sources */,
+				C7234E922146CD28009BE083 /* CCIArgument.m in Sources */,
+				C7234E6C2146CB3D009BE083 /* GHParser.m in Sources */,
+				C7234E902146CB4F009BE083 /* CCILoggingManager.m in Sources */,
+				C7234E532146CB3D009BE083 /* GHGherkinDialect.m in Sources */,
+				C7234E6A2146CB3D009BE083 /* GHParser+Extensions.m in Sources */,
+				C7234E5A2146CB3D009BE083 /* GHGherkinLanguageSetting.m in Sources */,
+				C7234E4F2146CB3D009BE083 /* GHExamples.m in Sources */,
+				C7234E582146CB3D009BE083 /* GHGherkinLanguageConstants.m in Sources */,
+				C7234E682146CB3D009BE083 /* GHNode.m in Sources */,
+				C7234E982146CD28009BE083 /* CCIExample.m in Sources */,
+				C7234E832146CB3D009BE083 /* GHTokenMatcher.m in Sources */,
+				C7234E872146CB3D009BE083 /* NSString+Trim.m in Sources */,
+				C7234E942146CD28009BE083 /* CCIAroundHock.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7234E282146CB0F009BE083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7234EAC2146CD56009BE083 /* CucumberishTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1078,6 +1345,11 @@
 			isa = PBXTargetDependency;
 			target = 3E0B341C1DDB9C0F00E1A338 /* CucumberishLibrary */;
 			targetProxy = C57B79DE1E15847C001B758D /* PBXContainerItemProxy */;
+		};
+		C7234E2F2146CB0F009BE083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7234E232146CB0E009BE083 /* Cucumberish-Mac */;
+			targetProxy = C7234E2E2146CB0F009BE083 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1296,6 +1568,164 @@
 			};
 			name = Release;
 		};
+		C7234E352146CB0F009BE083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6B83H6W97V;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Cucumberish-Mac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.casademora.Cucumberish-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7234E362146CB0F009BE083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6B83H6W97V;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Cucumberish-Mac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.casademora.Cucumberish-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7234E372146CB0F009BE083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6B83H6W97V;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Cucumberish-MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.casademora.Cucumberish-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		C7234E382146CB0F009BE083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6B83H6W97V;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Cucumberish-MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.casademora.Cucumberish-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1340,6 +1770,24 @@
 			buildConfigurations = (
 				C57B79E11E15847C001B758D /* Debug */,
 				C57B79E21E15847C001B758D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7234E392146CB0F009BE083 /* Build configuration list for PBXNativeTarget "Cucumberish-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7234E352146CB0F009BE083 /* Debug */,
+				C7234E362146CB0F009BE083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7234E3A2146CB0F009BE083 /* Build configuration list for PBXNativeTarget "Cucumberish-MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7234E372146CB0F009BE083 /* Debug */,
+				C7234E382146CB0F009BE083 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
