@@ -8,13 +8,9 @@
 
 #import <XCTest/XCTest.h>
 
-
 #import "Cucumberish.h"
-#import "CCIScenarioDefinition.h"
 #import "CCIFeaturesManager.h"
-#import "CCIFeature.h"
 #import "CCIJSONDumper.h"
-
 
 @interface CucumberishTester : NSObject
 
@@ -101,10 +97,13 @@
 	Then(@"(.*)", ^(NSArray<NSString *> *args, NSDictionary *userInfo) {
         [self->output appendFormat:@"Then %@\n", args[0]];
 	});
-	
+
+  #pragma clang diagnostic push
+  #pragma clang diagnostic ignored "-Wdeprecated-declarations"
 	And(@"(.*)", ^(NSArray<NSString *> *args, NSDictionary *userInfo) {
         [self->output appendFormat:@"And %@\n", args[0]];
 	});
+  #pragma clang diagnostic pop
 	
 	But(@"(.*)", ^(NSArray<NSString *> *args, NSDictionary *userInfo) {
         [self->output appendFormat:@"But %@\n", args[0]];
@@ -115,22 +114,29 @@
 - (void)validateParsedContent
 {
 	NSArray * features = [[CCIFeaturesManager instance] features];
-	NSMutableArray * featureDictionaries = [NSMutableArray array];
+	NSMutableArray * actualOutput = [NSMutableArray array];
 	for(CCIFeature * feature in features){
-		
-		[featureDictionaries addObject:[feature toDictionary]];
+		[actualOutput addObject:[feature toDictionary]];
 	}
-	NSError * parsingError;
-	NSData * data = [NSJSONSerialization dataWithJSONObject:featureDictionaries options:0 error:&parsingError];
-	
-	NSString * actualJsonString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-	NSAssert(actualJsonString.length > 0, @"Could not convert parsed features into JSON string");
+    
 	NSBundle * bundle = [NSBundle bundleForClass:[CucumberishTester class]];
 	NSString * expectedOutputFile = [bundle pathForResource:@"expected_json_output" ofType:@"json"];
 	NSError * error;
-	NSString * expectedOutput = [[NSString stringWithContentsOfFile:expectedOutputFile encoding:NSUTF8StringEncoding error:&error] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+	NSString * expectedOutputString = [NSString stringWithContentsOfFile:expectedOutputFile encoding:NSUTF8StringEncoding error:&error];
+    NSData * expectedOutputData = [expectedOutputString dataUsingEncoding:NSUTF8StringEncoding];
+    NSArray * expectedOutput = [NSJSONSerialization JSONObjectWithData:expectedOutputData options:kNilOptions error:&error];
 	NSAssert(error == nil, @"Could not load the expected output file");
-	NSAssert([expectedOutput isEqualToString:actualJsonString], @"Acutal parsed JSON is different than expected JSON:\nActual:\n%@\n=======\nExpected:\n%@", actualJsonString, expectedOutput);
+    
+    for (NSMutableDictionary *feature in actualOutput) {
+        for (NSMutableDictionary *scenario in feature[@"scenarioDefinitions"]) {
+            for (NSMutableDictionary *step in scenario[@"steps"]) {
+                [step setObject:@0 forKey:@"duration"];
+                [step removeObjectForKey:@"match"];
+            }
+        }
+    }
+    
+    NSAssert([actualOutput isEqualToArray:expectedOutput], @"Actual parsed JSON is different than expected JSON:\nActual:\n%@\n=======\nExpected:\n%@", actualOutput, expectedOutput);
 }
 
 - (void)validateExecutionOutput
@@ -214,7 +220,7 @@ void CucumberishInit()
 	//Optional step, see the comment on this property for more information
 	[Cucumberish instance].fixMissingLastScenario = YES;
 	//Tell Cucumberish the name of your features folder and let it execute them for you...
-	NSBundle * bundle = [NSBundle bundleForClass:[Cucumberish class]];
+	NSBundle * bundle = [NSBundle bundleForClass:[CucumberishTester class]];
 	[Cucumberish executeFeaturesInDirectory:@"Features" fromBundle:bundle includeTags:@[@"run"] excludeTags:@[@"skip"]];
 }
 
