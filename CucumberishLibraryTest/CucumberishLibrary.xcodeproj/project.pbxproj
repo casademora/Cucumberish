@@ -127,35 +127,7 @@
 		C57B79EA1E15922A001B758D /* Features in Resources */ = {isa = PBXBuildFile; fileRef = C57B79E61E15922A001B758D /* Features */; };
 		C5E80F9E1E16BA290042D98D /* gherkin-languages.json in Resources */ = {isa = PBXBuildFile; fileRef = C5E80F341E16BA280042D98D /* gherkin-languages.json */; };
 		C5E80F9F1E16BA290042D98D /* gherkin-languages.json in Resources */ = {isa = PBXBuildFile; fileRef = C5E80F341E16BA280042D98D /* gherkin-languages.json */; };
-		C5E80FA01E16BA290042D98D /* GHExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F361E16BA280042D98D /* GHExamples.m */; };
-		C5E80FA21E16BA290042D98D /* GHFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F381E16BA280042D98D /* GHFeature.m */; };
-		C5E80FA41E16BA290042D98D /* GHGherkinDialect.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F3A1E16BA280042D98D /* GHGherkinDialect.m */; };
-		C5E80FA61E16BA290042D98D /* GHGherkinDialectProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F3C1E16BA280042D98D /* GHGherkinDialectProvider.m */; };
-		C5E80FA81E16BA290042D98D /* GHGherkinLanguageConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F3F1E16BA280042D98D /* GHGherkinLanguageConstants.m */; };
-		C5E80FAA1E16BA290042D98D /* GHGherkinLanguageSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F411E16BA280042D98D /* GHGherkinLanguageSetting.m */; };
-		C5E80FAC1E16BA290042D98D /* GHGherkinLine.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F431E16BA280042D98D /* GHGherkinLine.m */; };
-		C5E80FAE1E16BA290042D98D /* GHGherkinLineSpan.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F461E16BA280042D98D /* GHGherkinLineSpan.m */; };
-		C5E80FB01E16BA290042D98D /* GHLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F4D1E16BA280042D98D /* GHLocation.m */; };
-		C5E80FB21E16BA290042D98D /* GHNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F4F1E16BA280042D98D /* GHNode.m */; };
-		C5E80FB41E16BA290042D98D /* GHParser+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F511E16BA280042D98D /* GHParser+Extensions.m */; };
-		C5E80FB61E16BA290042D98D /* GHParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F531E16BA280042D98D /* GHParser.m */; };
-		C5E80FB81E16BA290042D98D /* GHParserException.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F551E16BA280042D98D /* GHParserException.m */; };
-		C5E80FBA1E16BA290042D98D /* GHScenario.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F571E16BA280042D98D /* GHScenario.m */; };
-		C5E80FBC1E16BA290042D98D /* GHScenarioDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F591E16BA290042D98D /* GHScenarioDefinition.m */; };
-		C5E80FBE1E16BA290042D98D /* GHScenarioOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F5C1E16BA290042D98D /* GHScenarioOutline.m */; };
-		C5E80FC01E16BA290042D98D /* GHStep.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F5E1E16BA290042D98D /* GHStep.m */; };
-		C5E80FC21E16BA290042D98D /* GHStepArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F601E16BA290042D98D /* GHStepArgument.m */; };
-		C5E80FC41E16BA290042D98D /* GHTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F621E16BA290042D98D /* GHTableCell.m */; };
-		C5E80FC61E16BA290042D98D /* GHTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F641E16BA290042D98D /* GHTableRow.m */; };
-		C5E80FC81E16BA290042D98D /* GHTag.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F661E16BA290042D98D /* GHTag.m */; };
-		C5E80FCA1E16BA290042D98D /* GHToken.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F681E16BA290042D98D /* GHToken.m */; };
-		C5E80FCC1E16BA290042D98D /* GHTokenMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F6A1E16BA290042D98D /* GHTokenMatcher.m */; };
-		C5E80FCE1E16BA290042D98D /* GHTokenScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F6C1E16BA290042D98D /* GHTokenScanner.m */; };
-		C5E80FD01E16BA290042D98D /* NSString+Trim.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F6E1E16BA290042D98D /* NSString+Trim.m */; };
-		C5E80FD21E16BA290042D98D /* NSArray+Hashes.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F711E16BA290042D98D /* NSArray+Hashes.m */; };
-		C5E80FD41E16BA290042D98D /* NSObject+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F731E16BA290042D98D /* NSObject+Dictionary.m */; };
-		C5E80FD61E16BA290042D98D /* NSString+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F751E16BA290042D98D /* NSString+Formatter.m */; };
-		C7234E2D2146CB0F009BE083 /* Cucumberish_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7234E242146CB0E009BE083 /* Cucumberish_Mac.framework */; };
+		C7234E2D2146CB0F009BE083 /* Cucumberish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7234E242146CB0E009BE083 /* Cucumberish.framework */; };
 		C7234E342146CB0F009BE083 /* Cucumberish_Mac.h in Headers */ = {isa = PBXBuildFile; fileRef = C7234E262146CB0E009BE083 /* Cucumberish_Mac.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7234E3B2146CB2F009BE083 /* NSArray+Hashes.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F701E16BA290042D98D /* NSArray+Hashes.h */; };
 		C7234E3C2146CB2F009BE083 /* NSArray+Hashes.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F711E16BA290042D98D /* NSArray+Hashes.m */; };
@@ -279,20 +251,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3E38B0F01DDDE0A400C1CF5A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3E0B34151DDB9C0F00E1A338 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3E0B341C1DDB9C0F00E1A338;
-			remoteInfo = CucumberishLibrary;
-		};
-		C57B79DE1E15847C001B758D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3E0B34151DDB9C0F00E1A338 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3E0B341C1DDB9C0F00E1A338;
-			remoteInfo = CucumberishLibrary;
-		};
 		C7234E2E2146CB0F009BE083 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3E0B34151DDB9C0F00E1A338 /* Project object */;
@@ -301,18 +259,6 @@
 			remoteInfo = "Cucumberish-Mac";
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		3E0B341B1DDB9C0F00E1A338 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3E38B0EA1DDDE0A400C1CF5A /* CucumberishFeatureDefinition.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CucumberishFeatureDefinition.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -437,7 +383,7 @@
 		C5E80F731E16BA290042D98D /* NSObject+Dictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Dictionary.m"; sourceTree = "<group>"; };
 		C5E80F741E16BA290042D98D /* NSString+Formatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Formatter.h"; sourceTree = "<group>"; };
 		C5E80F751E16BA290042D98D /* NSString+Formatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Formatter.m"; sourceTree = "<group>"; };
-		C7234E242146CB0E009BE083 /* Cucumberish_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cucumberish_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7234E242146CB0E009BE083 /* Cucumberish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cucumberish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7234E262146CB0E009BE083 /* Cucumberish_Mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cucumberish_Mac.h; sourceTree = "<group>"; };
 		C7234E272146CB0E009BE083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7234E2C2146CB0F009BE083 /* Cucumberish-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cucumberish-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -486,7 +432,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7234E2D2146CB0F009BE083 /* Cucumberish_Mac.framework in Frameworks */,
+				C7234E2D2146CB0F009BE083 /* Cucumberish.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,7 +460,7 @@
 				3E38B0EA1DDDE0A400C1CF5A /* CucumberishFeatureDefinition.xctest */,
 				C57B79D81E15847C001B758D /* CucumberishTests.xctest */,
 				607EE9EA1E50ED5800F2E8B6 /* Cucumberish.framework */,
-				C7234E242146CB0E009BE083 /* Cucumberish_Mac.framework */,
+				C7234E242146CB0E009BE083 /* Cucumberish.framework */,
 				C7234E2C2146CB0F009BE083 /* Cucumberish-MacTests.xctest */,
 			);
 			name = Products;
@@ -535,20 +481,19 @@
 			path = CucumberishFeatureDefinition;
 			sourceTree = "<group>";
 		};
+		607EE9EB1E50ED5800F2E8B6 /* CucumberishCarthage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CucumberishCarthage;
+			path = Cucumberish;
+			sourceTree = "<group>";
+		};
 		B3D80A8F20497AA800ACAE33 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		607EE9EB1E50ED5800F2E8B6 /* CucumberishCarthage */ = {
-			isa = PBXGroup;
-			children = (
-				607EE9ED1E50ED5800F2E8B6 /* Info.plist */,
-			);
-			name = CucumberishCarthage;
-			path = Cucumberish;
 			sourceTree = "<group>";
 		};
 		C57B79D91E15847C001B758D /* CucumberishTests */ = {
@@ -954,7 +899,7 @@
 			);
 			name = "Cucumberish-Mac";
 			productName = "Cucumberish-Mac";
-			productReference = C7234E242146CB0E009BE083 /* Cucumberish_Mac.framework */;
+			productReference = C7234E242146CB0E009BE083 /* Cucumberish.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C7234E2B2146CB0F009BE083 /* Cucumberish-MacTests */ = {
@@ -1227,16 +1172,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3E38B0F11DDDE0A400C1CF5A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3E0B341C1DDB9C0F00E1A338 /* CucumberishLibrary */;
-			targetProxy = 3E38B0F01DDDE0A400C1CF5A /* PBXContainerItemProxy */;
-		};
-		C57B79DF1E15847C001B758D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3E0B341C1DDB9C0F00E1A338 /* CucumberishLibrary */;
-			targetProxy = C57B79DE1E15847C001B758D /* PBXContainerItemProxy */;
-		};
 		C7234E2F2146CB0F009BE083 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C7234E232146CB0E009BE083 /* Cucumberish-Mac */;
@@ -1297,10 +1232,9 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvsimulator appletvos macosx";
 				TARGETED_DEVICE_FAMILY = "1,2,3";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Debug;
 		};
@@ -1349,11 +1283,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvsimulator appletvos macosx";
 				TARGETED_DEVICE_FAMILY = "1,2,3";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Release;
 		};
@@ -1405,6 +1338,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ahmed.ali.Cucumberish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvsimulator appletvos";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1429,6 +1363,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ahmed.ali.Cucumberish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvsimulator appletvos";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1496,9 +1431,10 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.casademora.Cucumberish-Mac";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = Cucumberish;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
@@ -1541,9 +1477,10 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.casademora.Cucumberish-Mac";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = Cucumberish;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
