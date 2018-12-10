@@ -452,7 +452,6 @@
 				C5E80F051E16BA280042D98D /* Cucumberish */,
 				3E38B0EB1DDDE0A400C1CF5A /* CucumberishFeatureDefinition */,
 				C57B79D91E15847C001B758D /* CucumberishTests */,
-				607EE9EB1E50ED5800F2E8B6 /* CucumberishCarthage */,
 				C7234E252146CB0E009BE083 /* Cucumberish-Mac */,
 				C7234E302146CB0F009BE083 /* Cucumberish-MacTests */,
 				3E0B341E1DDB9C0F00E1A338 /* Products */,
@@ -485,15 +484,8 @@
 				F3CBE1AD1F19C9E700D34E16 /* CCIDryRunLogger.m */,
 				F3CBE1AF1F19D7D500D34E16 /* dry-run.output */,
 			);
-			path = CucumberishFeatureDefinition;
-			sourceTree = "<group>";
-		};
-		607EE9EB1E50ED5800F2E8B6 /* CucumberishCarthage */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = CucumberishCarthage;
-			path = Cucumberish;
+			name = CucumberishFeatureDefinition;
+			path = CucumberishLibraryTest/CucumberishFeatureDefinition;
 			sourceTree = "<group>";
 		};
 		B3D80A8F20497AA800ACAE33 /* Frameworks */ = {
@@ -514,7 +506,8 @@
 				C57B79DA1E15847C001B758D /* CucumberishTests.m */,
 				C57B79DC1E15847C001B758D /* Info.plist */,
 			);
-			path = CucumberishTests;
+			name = CucumberishTests;
+			path = CucumberishLibraryTest/CucumberishTests;
 			sourceTree = "<group>";
 		};
 		C5E80F051E16BA280042D98D /* Cucumberish */ = {
@@ -526,8 +519,7 @@
 				C5E80F261E16BA280042D98D /* Dependencies */,
 				C5E80F6F1E16BA290042D98D /* Utils */,
 			);
-			name = Cucumberish;
-			path = ../Cucumberish;
+			path = Cucumberish;
 			sourceTree = "<group>";
 		};
 		C5E80F061E16BA280042D98D /* Core */ = {
@@ -689,7 +681,8 @@
 				C7234E262146CB0E009BE083 /* Cucumberish_Mac.h */,
 				C7234E272146CB0E009BE083 /* Info.plist */,
 			);
-			path = "Cucumberish-Mac";
+			name = "Cucumberish-Mac";
+			path = "CucumberishLibraryTest/Cucumberish-Mac";
 			sourceTree = "<group>";
 		};
 		C7234E302146CB0F009BE083 /* Cucumberish-MacTests */ = {
@@ -698,7 +691,8 @@
 				C7234E312146CB0F009BE083 /* Cucumberish_MacTests.swift */,
 				C7234E332146CB0F009BE083 /* Info.plist */,
 			);
-			path = "Cucumberish-MacTests";
+			name = "Cucumberish-MacTests";
+			path = "CucumberishLibraryTest/Cucumberish-MacTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1309,7 +1303,7 @@
 					"$(inherited)",
 					"SRC_ROOT=@\\\"$(SRCROOT)\\\"",
 				);
-				INFOPLIST_FILE = CucumberishFeatureDefinition/Info.plist;
+				INFOPLIST_FILE = CucumberishLibraryTest/CucumberishFeatureDefinition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ahmed.ali.CucumberishFeatureDefinition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1323,7 +1317,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				GCC_PREPROCESSOR_DEFINITIONS = "SRC_ROOT=@\\\"$(SRCROOT)\\\"";
-				INFOPLIST_FILE = CucumberishFeatureDefinition/Info.plist;
+				INFOPLIST_FILE = CucumberishLibraryTest/CucumberishFeatureDefinition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ahmed.ali.CucumberishFeatureDefinition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1349,7 +1343,7 @@
 					"$(inherited)",
 					"SRC_ROOT=@\\\"$(SRCROOT)\\\"",
 				);
-				INFOPLIST_FILE = Cucumberish/Info.plist;
+				INFOPLIST_FILE = CucumberishLibraryTest/Cucumberish/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ahmed.ali.Cucumberish;
@@ -1376,7 +1370,7 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				GCC_PREPROCESSOR_DEFINITIONS = "SRC_ROOT=@\\\"$(SRCROOT)\\\"";
-				INFOPLIST_FILE = Cucumberish/Info.plist;
+				INFOPLIST_FILE = CucumberishLibraryTest/Cucumberish/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ahmed.ali.Cucumberish;
@@ -1400,7 +1394,7 @@
 					"SRC_ROOT=@\\\"$(SRCROOT)\\\"",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = CucumberishTests/Info.plist;
+				INFOPLIST_FILE = CucumberishLibraryTest/CucumberishTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sidekickr.CucumberishTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1414,7 +1408,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = CucumberishTests/Info.plist;
+				INFOPLIST_FILE = CucumberishLibraryTest/CucumberishTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sidekickr.CucumberishTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1449,7 +1443,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "Cucumberish-Mac/Info.plist";
+				INFOPLIST_FILE = "CucumberishLibraryTest/Cucumberish-Mac/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -1495,7 +1489,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "Cucumberish-Mac/Info.plist";
+				INFOPLIST_FILE = "CucumberishLibraryTest/Cucumberish-Mac/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MTL_FAST_MATH = YES;
@@ -1533,7 +1527,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 6B83H6W97V;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "Cucumberish-MacTests/Info.plist";
+				INFOPLIST_FILE = "CucumberishLibraryTest/Cucumberish-MacTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -1569,7 +1563,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 6B83H6W97V;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "Cucumberish-MacTests/Info.plist";
+				INFOPLIST_FILE = "CucumberishLibraryTest/Cucumberish-MacTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_FAST_MATH = YES;
